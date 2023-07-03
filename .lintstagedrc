@@ -1,0 +1,5 @@
+{
+  "*.{js,jsx,ts,tsx}": ["pnpm lint:check --", "pnpm format:fix --"],
+  "*.{css,sass,scss,postcss}": ["pnpm format:fix --"],
+  "*.{json,md,mdx,yml,yaml,html}": ["pnpm format:fix --"]
+}
